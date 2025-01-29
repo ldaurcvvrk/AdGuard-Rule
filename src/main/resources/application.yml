@@ -13,7 +13,7 @@ application:
     #远程规则
     remote:
       - 'https://cdn.jsdelivr.net/gh/hoshsadiq/adblock-nocoin-list/hosts.txt'  #adblock-nocoin-list
-      - 'https://someonewhocares.org/hosts/zero/hosts' #Dan Pollock's List
+
       #- 'https://cdn.jsdelivr.net/gh/AdguardTeam/FiltersRegistry/filters/filter_15_DnsFilter/filter.txt' #AdGuard DNS filter
       - 'https://abp.oisd.nl/basic/' #OISD Blocklist Basic
       #- 'https://adaway.org/hosts.txt' #AdAway Default Blocklist
