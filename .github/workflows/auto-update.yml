@@ -45,12 +45,4 @@ jobs:
         if: steps.commit.outputs.status == 'success' && !cancelled()
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{secrets.GITHUB_TOKEN}}
-          branch: ${{github.ref}}
-
-      - name: Mirror Refresh
-        run: sleep 10 && curl 'https://purge.jsdelivr.net/gh/${{github.repository}}/rule'
-
-
-      - name: Delete Workflow Runs
-        uses: Mattraks/delete-workflow-runs
+    
